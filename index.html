@@ -5,12 +5,73 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
+
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container">
+            <a class="navbar-brand text-theme-primary" href="index.html">
+                Lomba
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-md-auto gap-2">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="journey.html">Journey</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="proklamasi.html">Proklamasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quiz.html">Quiz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">Developer</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-color-theme">
+                            Login
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="h-100 w-100 min-vh-100  bg-theme">
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-md-5 mt-5">
+                    <h1 class="hero-text" data-aos="fade-right" data-aos-delay="100">
+                        Mari berbagi untuk <span class="text-theme-primary">kemajuan</span> pendidikan indonesia.
+                    </h1>
+                    <p class="hero-text-sub">
+                        Mari bersama-sama membangun bangsa yang lebih baik, lebih baik untuk Indonesia.
+                    </p>
+                    <a href="journey.html" class="btn btn-color-theme btn-block p-2" data-aos="fade-right"
+                        data-aos-delay="300">
+                        Donasi Sekarang
+                    </a>
+                </div>
+                <div class="col-md-7 ">
+                    <img src="assets/images/Saly-31.png" alt="" width="550" class="float-lg-end img-fluid"
+                        data-aos="fade-left">
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>

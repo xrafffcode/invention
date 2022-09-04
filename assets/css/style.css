@@ -1,0 +1,41 @@
+:root {
+    --color-primary: #367FF9;
+    --color-secondary: #FF8C21;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.hero-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #000000;
+}
+
+.hero-text-sub {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 204.3%;
+    /* or 33px */
+    color: #5C5C5C;
+}
+
+.text-theme-primary {
+    color: var(--color-primary);
+}
+
+.btn-color-theme {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.bg-theme {
+    background: rgba(16, 144, 203, 0.1);
+}
