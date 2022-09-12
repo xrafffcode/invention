@@ -1,0 +1,161 @@
+:root {
+    --color-primary: #367FF9;
+    --color-secondary: #FF8C21;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 177.9%;
+    /* or 75px */
+
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.hero-text-sub {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 189.5%;
+    /* or 38px */
+
+   text-align: center;
+
+    color: #777777;
+}
+
+.text-sub {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 189.5%;
+    /* or 38px */
+
+   text-align: justify;
+
+    color: #777777;
+}
+
+.form{
+    position: relative;
+}
+
+.form .fa-search{
+    position: absolute;
+    top: 19px;
+    left: 20px;
+    color: #9ca3af;
+}
+
+.form-input{
+    height: 49px;
+    text-indent: 33px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #F1F1F1;
+}
+
+.form-input:focus{
+    box-shadow: none;
+    background-color: #F1F1F1;
+}
+
+.btn{
+    border-radius: 20px;
+    background-color: #E7EFF3;
+    border-style: none;
+    padding: 8px;
+    cursor: pointer;
+    width: 162px;
+
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #1090CB;
+}
+
+.judul{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 177.9%;
+    text-align: justify;
+    /* or 48px */
+
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.img-bcn{
+    width: 545px;
+    height: 340px;
+}
+
+.card{
+    border-style: none;
+}
+
+.card-img-top{
+    padding: 10px;
+    border-radius: 50px;
+    width: 100%;
+    height: 306px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile-name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    /* identical to box height, or 38px */
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.post-date{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #7B7B7B;
+}
+
+.text-theme-primary {
+    color: var(--color-primary);
+}
+
+.btn-color-theme {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.bg-theme {
+    background: rgba(16, 144, 203, 0.1);
+}
