@@ -7,6 +7,28 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.nav-link {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    background: #fff;
+    color: var(--color-primary);
+}
+
+.nav-link.active {
+    color: var(--color-primary) !important;
+}
+
+.hero {
+    padding: 20px 0;
+}
 
 .hero-text {
     font-family: 'Poppins';
@@ -38,4 +60,43 @@ body {
 
 .bg-theme {
     background: rgba(16, 144, 203, 0.1);
+}
+
+.about {
+    padding: 20px 0;
+}
+
+.about-content {
+    padding: 120px 0;
+}
+
+.about .text-headline {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 160%;
+    text-align: center;
+    color: #252525;
+}
+
+.about .text-subheadline {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 175%;
+    text-align: center;
+    color: #868686;
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        padding: 100px 0;
+    }
+
+    .about {
+        padding: 50px 0;
+        font-family: 'Poppins';
+    }
 }
